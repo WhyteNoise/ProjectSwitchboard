@@ -1,4 +1,4 @@
-﻿Log file open, 01/13/18 20:42:53
+﻿Log file open, 01/13/18 20:54:50
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: ProjectSwitchboard
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1682410139) SRandInit(1682410139).
+LogInit: Display: RandInit(193848361) SRandInit(193848361).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3794801, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.185747
+LogStats: Stats thread started at 0.163462
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -194,80 +194,1072 @@ LogInit: Base directory: D:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.01.14-01.42.55:827][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.14-01.42.55:827][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.01.14-01.42.55:850][  0]LogInit: Computer: DAN-DESKTOP
-[2018.01.14-01.42.55:850][  0]LogInit: User: Dan
-[2018.01.14-01.42.55:850][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.01.14-01.42.55:850][  0]LogInit: High frequency timer resolution =3.914061 MHz
-[2018.01.14-01.42.55:850][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.01.14-01.42.55:850][  0]LogMemory: Platform Memory Stats for Windows
-[2018.01.14-01.42.55:850][  0]LogMemory: Process Physical Memory: 272.52 MB used, 272.52 MB peak
-[2018.01.14-01.42.55:850][  0]LogMemory: Process Virtual Memory: 269.72 MB used, 269.72 MB peak
-[2018.01.14-01.42.55:850][  0]LogMemory: Physical Memory: 6324.49 MB used,  10008.00 MB free, 16332.48 MB total
-[2018.01.14-01.42.55:850][  0]LogMemory: Virtual Memory: 677.65 MB used,  10008.00 MB free, 134217728.00 MB total
-[2018.01.14-01.42.56:214][  0]LogInit: Using OS detected language (en-GB).
-[2018.01.14-01.42.56:214][  0]LogInit: Using OS detected locale (en-US).
-[2018.01.14-01.42.56:252][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.01.14-01.42.56:628][  0]LogInit: Setting process to per monitor DPI aware
-[2018.01.14-01.42.58:544][  0]LogD3D11RHI: D3D11 adapters:
-[2018.01.14-01.42.58:581][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.01.14-01.42.58:581][  0]LogD3D11RHI:       8096/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.01.14-01.42.58:583][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.01.14-01.42.58:583][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.01.14-01.42.58:583][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.01.14-01.42.58:589][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.01.14-01.42.58:589][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.01.14-01.42.58:589][  0]LogWindows: EnumDisplayDevices:
-[2018.01.14-01.42.58:589][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2018.01.14-01.42.58:589][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.01.14-01.42.58:589][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.01.14-01.42.58:590][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.01.14-01.42.58:590][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.01.14-01.42.58:590][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.01.14-01.42.58:590][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.01.14-01.42.58:590][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.01.14-01.42.58:590][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
-[2018.01.14-01.42.58:611][  0]LogD3D11RHI: Async texture creation enabled
-[2018.01.14-01.42.58:696][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.01.14-01.42.58:789][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Intermediate/Shaders/WorkingDirectory/8304/).
-[2018.01.14-01.42.58:789][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dan/AppData/Local/Temp/UnrealShaderWorkingDir/8D8A999E4E09BD8AA56D6E9936096360/'.
-[2018.01.14-01.42.58:789][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.01.14-01.43.00:637][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.01.14-01.43.00:674][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.01.14-01.43.00:710][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.01.14-01.43.00:750][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.01.14-01.43.00:789][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.01.14-01.43.00:825][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.01.14-01.43.00:866][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.01.14-01.43.00:904][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.01.14-01.43.00:945][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.01.14-01.43.00:990][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.01.14-01.43.01:027][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.01.14-01.43.01:064][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.01.14-01.43.01:102][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.01.14-01.43.01:140][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.01.14-01.43.01:234][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.01.14-01.43.01:234][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.01.14-01.43.01:277][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.01.14-01.43.01:306][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.01.14-01.43.01:397][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.01.14-01.43.01:414][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.01.14-01.43.01:453][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.01.14-01.43.01:489][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.01.14-01.43.01:524][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.01.14-01.43.01:563][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.01.14-01.43.01:563][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.01.14-01.43.02:113][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.01.14-01.43.02:177][  0]LogDerivedDataCache: Loaded boot cache 0.06s 81MB C:/Users/Dan/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.01.14-01.43.02:177][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dan/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.01.14-01.43.02:177][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.01.14-01.43.02:177][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.01.14-01.43.02:178][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.01.14-01.43.02:178][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.01.14-01.43.02:195][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.01.14-01.43.02:207][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.01.14-01.43.02:216][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.01.14-01.43.02:216][  0]LogSlate: Using Freetype 2.6.0
-[2018.01.14-01.43.02:226][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.14-01.43.02:226][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.14-01.54.51:303][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.14-01.54.51:303][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.14-01.54.51:314][  0]LogInit: Computer: DAN-DESKTOP
+[2018.01.14-01.54.51:314][  0]LogInit: User: Dan
+[2018.01.14-01.54.51:314][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.14-01.54.51:314][  0]LogInit: High frequency timer resolution =3.914061 MHz
+[2018.01.14-01.54.51:314][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.01.14-01.54.51:314][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.14-01.54.51:314][  0]LogMemory: Process Physical Memory: 272.61 MB used, 272.61 MB peak
+[2018.01.14-01.54.51:314][  0]LogMemory: Process Virtual Memory: 269.91 MB used, 269.91 MB peak
+[2018.01.14-01.54.51:314][  0]LogMemory: Physical Memory: 6166.15 MB used,  10166.33 MB free, 16332.48 MB total
+[2018.01.14-01.54.51:314][  0]LogMemory: Virtual Memory: 677.65 MB used,  10166.33 MB free, 134217728.00 MB total
+[2018.01.14-01.54.51:408][  0]LogInit: Using OS detected language (en-GB).
+[2018.01.14-01.54.51:408][  0]LogInit: Using OS detected locale (en-US).
+[2018.01.14-01.54.51:411][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.01.14-01.54.51:744][  0]LogInit: Setting process to per monitor DPI aware
+[2018.01.14-01.54.52:018][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.14-01.54.52:069][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.01.14-01.54.52:069][  0]LogD3D11RHI:       8096/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.01.14-01.54.52:070][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.14-01.54.52:070][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.14-01.54.52:070][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.14-01.54.52:076][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.14-01.54.52:076][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.14-01.54.52:076][  0]LogWindows: EnumDisplayDevices:
+[2018.01.14-01.54.52:076][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.01.14-01.54.52:076][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.01.14-01.54.52:076][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.14-01.54.52:076][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.14-01.54.52:076][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.14-01.54.52:076][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.01.14-01.54.52:076][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.14-01.54.52:076][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.14-01.54.52:076][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
+[2018.01.14-01.54.52:098][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.14-01.54.52:158][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.14-01.54.52:251][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Intermediate/Shaders/WorkingDirectory/496/).
+[2018.01.14-01.54.52:252][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dan/AppData/Local/Temp/UnrealShaderWorkingDir/FB32493449023169C2373483B88CEC09/'.
+[2018.01.14-01.54.52:252][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.01.14-01.54.53:009][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.14-01.54.53:049][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.01.14-01.54.53:089][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.14-01.54.53:131][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.01.14-01.54.53:168][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.01.14-01.54.53:203][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.14-01.54.53:239][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.14-01.54.53:276][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.14-01.54.53:307][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.01.14-01.54.53:343][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.14-01.54.53:378][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.14-01.54.53:413][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.14-01.54.53:450][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.14-01.54.53:487][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.14-01.54.53:563][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.14-01.54.53:563][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.14-01.54.53:600][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.01.14-01.54.53:628][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.01.14-01.54.53:696][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.01.14-01.54.53:714][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.01.14-01.54.53:749][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.14-01.54.53:785][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.14-01.54.53:823][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.14-01.54.53:860][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.01.14-01.54.53:860][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.01.14-01.54.54:171][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.01.14-01.54.54:227][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/Dan/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.14-01.54.54:228][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dan/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.01.14-01.54.54:228][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.14-01.54.54:228][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.14-01.54.54:228][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.14-01.54.54:228][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.14-01.54.54:240][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.14-01.54.54:253][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.14-01.54.54:260][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.14-01.54.54:261][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.14-01.54.54:261][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.14-01.54.54:261][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.14-01.54.54:566][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.14-01.54.54:831][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.14-01.54.54:866][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.14-01.54.54:866][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.14-01.54.54:866][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.01.14-01.54.54:866][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.01.14-01.54.54:866][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.01.14-01.54.54:914][  0]LogNetVersion: ProjectSwitchboard , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2437704371)
+[2018.01.14-01.54.55:062][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2018.01.14-01.54.55:495][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.068115 seconds
+[2018.01.14-01.54.55:500][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2018.01.14-01.54.55:500][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
+[2018.01.14-01.54.55:500][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.14-01.54.55:531][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.14-01.54.58:090][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.14-01.54.58:129][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.14-01.54.58:739][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.14-01.54.59:096][  0]SourceControl: Source control is disabled
+[2018.01.14-01.54.59:096][  0]SourceControl: Source control is disabled
+[2018.01.14-01.54.59:149][  0]SourceControl: Source control is disabled
+[2018.01.14-01.54.59:197][  0]SourceControl: Source control is disabled
+[2018.01.14-01.54.59:871][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.14-01.55.00:086][  0]LogOcInput: OculusInput pre-init called
+[2018.01.14-01.55.00:318][  0]LogEngine: Initializing Engine...
+[2018.01.14-01.55.00:320][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.14-01.55.00:497][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.14-01.55.00:497][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.14-01.55.00:591][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.14-01.55.00:606][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.14-01.55.00:626][  0]LogInit: FAudioDevice initialized.
+[2018.01.14-01.55.00:702][  0]LogDerivedDataCache: Saved boot cache 0.08s 78MB C:/Users/Dan/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.14-01.55.00:716][  0]LogInit: Texture streaming: Enabled
+[2018.01.14-01.55.00:777][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.14-01.55.00:875][  0]LogInit: Transaction tracking system initialized
+[2018.01.14-01.55.01:103][  0]BlueprintLog: New page: Editor Load
+[2018.01.14-01.55.01:706][  0]LocalizationService: Localization service is disabled
+[2018.01.14-01.55.02:227][  0]LogConsoleResponse: Display: 
+[2018.01.14-01.55.02:367][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.14-01.55.02:367][  0]LogCook: Display: Mobile HDR setting 1
+[2018.01.14-01.55.02:367][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.01.14-01.55.03:238][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/' took 0.01s
+[2018.01.14-01.55.03:273][  0]SourceControl: Source control is disabled
+[2018.01.14-01.55.03:273][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.14-01.55.03:273][  0]LightingResults: New page: Lighting Build
+[2018.01.14-01.55.03:303][  0]MapCheck: New page: Map Check
+[2018.01.14-01.55.03:303][  0]LightingResults: New page: Lighting Build
+[2018.01.14-01.55.03:588][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.01.14-01.55.03:594][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.14-01.55.03:604][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.14-01.55.03:651][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 46.911ms to complete.
+[2018.01.14-01.55.03:651][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.378
+[2018.01.14-01.55.04:585][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.01.14-01.55.04:661][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProjectSwitchboard
+[2018.01.14-01.55.04:661][  0]LogTemp: CWD: D:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.01.14-01.55.04:661][  0]LogTemp: Initial Dir: D:\Program Files\Epic Games\UE_4.18
+[2018.01.14-01.55.04:661][  0]LogTemp: Env CWD: D:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.01.14-01.55.04:661][  0]LogTemp: BranchPath = DAN-DESKTOP/D/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DAN-DESKTOP/D/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2018.01.14-01.55.04:661][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Dan\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.01.14-01.55.04:661][  0]LogCollectionManager: Loaded 0 collections in 0.000834 seconds
+[2018.01.14-01.55.04:734][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/Collections/' took 0.01s
+[2018.01.14-01.55.04:734][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/Developers/Dan/Collections/' took 0.01s
+[2018.01.14-01.55.04:734][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/Collections/' took 0.01s
+[2018.01.14-01.55.04:734][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.01.14-01.55.04:740][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2363 classes and 519 folders.
+[2018.01.14-01.55.04:783][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.01.14-01.55.04:825][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.01.14-01.55.04:856][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.01.14-01.55.04:910][  0]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.14-01.55.04:914][  0]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.14-01.55.04:919][  0]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.14-01.55.05:010][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.01.14-01.55.05:169][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.01.14-01.55.05:169][  0]LogLoad: (Engine Initialization) Total time: 15.99 seconds
+[2018.01.14-01.55.05:169][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.01.14-01.55.05:169][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.14-01.55.05:169][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.14-01.55.05:528][  0]LogAssetRegistry: Asset discovery search completed in 10.4889 seconds
+[2018.01.14-01.55.05:530][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.14-01.55.05:530][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
+[2018.01.14-01.55.05:532][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.14-01.55.05:570][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.14-01.55.06:511][  3]LogSlate: Took 0.000326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.14-01.55.13:084][114]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.14-01.55.13:112][114]LogAIModule: Creating AISystem for world StartScreen
+[2018.01.14-01.55.13:146][114]Cmd: MAP LOAD FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/_Scenes/StartScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.14-01.55.13:146][114]LightingResults: New page: Lighting Build
+[2018.01.14-01.55.13:147][114]LoadErrors: New page: Loading map: StartScreen.umap
+[2018.01.14-01.55.13:152][114]MapCheck: New page: Map Check
+[2018.01.14-01.55.13:152][114]LightingResults: New page: Lighting Build
+[2018.01.14-01.55.13:196][114]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.14-01.55.13:225][114]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.14-01.55.13:276][114]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.689ms to complete.
+[2018.01.14-01.55.13:276][114]LogFileHelpers: Loading map 'StartScreen' took 0.130
+[2018.01.14-01.56.25:071][126]LogEditorViewport: Clicking Background
+[2018.01.14-01.56.47:230][494]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.01.14-01.56.47:704][494]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2018.01.14-01.56.47:737][494]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.14-01.56.47:763][494]LogMaterial: Missing cached shader map for material PersonaFloorMat, compiling. 
+[2018.01.14-01.56.50:481][552]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:58).
+[2018.01.14-01.56.51:120][571]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.14-01.58.11:823][534]LogSlate: Took 0.012880 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.14-02.06.53:107][875]LogSlate: Took 0.017046 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.01.14-02.07.41:820][320]LogSavePackage: Save=14.98ms
+[2018.01.14-02.07.41:820][320]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode1AFED3884947AFE6B21C238F328BBC64.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-02.07.41:827][320]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-02.07.48:715][864]LogSavePackage: Save=9.79ms
+[2018.01.14-02.07.48:715][864]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode31E1FDB94A2B28C34EE7DF82CCF5D7CA.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-02.07.48:717][864]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-02.08.22:076][542]LogSavePackage: Save=7.64ms
+[2018.01.14-02.08.22:076][542]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreen_Auto168D7FCD7473ECF2D9A8D89950AC45AC2.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/Autosaves/Game/_Scenes/StartScreen_Auto1.umap'
+[2018.01.14-02.08.22:078][542]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/Autosaves/Game/_Scenes/StartScreen_Auto1.umap
+[2018.01.14-02.08.22:083][542]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Scenes/StartScreen' took 0.049
+[2018.01.14-02.08.22:083][542]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.049
+[2018.01.14-02.08.22:098][542]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/StartScreenGameMode] ([1] browsable assets)...
+[2018.01.14-02.08.22:098][542]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/StartScreenGameMode]
+[2018.01.14-02.08.22:114][542]LogSavePackage: Save=12.68ms
+[2018.01.14-02.08.22:114][542]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode_Auto16052B2A74914FB1185A8B9ACB773E07A.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/StartScreenGameMode_Auto1.uasset'
+[2018.01.14-02.08.22:115][542]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/StartScreenGameMode_Auto1.uasset
+[2018.01.14-02.08.22:115][542]LogFileHelpers: Auto-saving content packages took 0.019
+[2018.01.14-02.20.48:313][ 48]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-02.21.24:792][764]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Scenes/StartScreen' took 0.025
+[2018.01.14-02.21.24:795][764]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/StartScreenGameMode] ([1] browsable assets)...
+[2018.01.14-02.21.24:795][764]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/StartScreenGameMode]
+[2018.01.14-02.21.24:813][764]LogSavePackage: Save=10.17ms
+[2018.01.14-02.21.24:814][764]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode_Auto2307BC55841644F22EC4412BE7CFD9FEE.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/StartScreenGameMode_Auto2.uasset'
+[2018.01.14-02.21.24:815][764]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/StartScreenGameMode_Auto2.uasset
+[2018.01.14-02.21.24:815][764]LogFileHelpers: Auto-saving content packages took 0.022
+[2018.01.14-02.31.25:673][597]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Scenes/StartScreen' took 0.050
+[2018.01.14-02.31.25:675][597]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/StartScreenGameMode] ([1] browsable assets)...
+[2018.01.14-02.31.25:675][597]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/StartScreenGameMode]
+[2018.01.14-02.31.25:703][597]LogSavePackage: Save=18.29ms
+[2018.01.14-02.31.25:703][597]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode_Auto3C7922D7A4BAE5B4841E4F0B19E70AC6B.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/StartScreenGameMode_Auto3.uasset'
+[2018.01.14-02.31.25:704][597]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/StartScreenGameMode_Auto3.uasset
+[2018.01.14-02.31.25:705][597]LogFileHelpers: Auto-saving content packages took 0.031
+[2018.01.14-02.34.54:317][371]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-02.34.57:629][494]LogSavePackage: Save=17.14ms
+[2018.01.14-02.34.57:629][494]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode48B9ADB140B2FD13A26872A3121DD402.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-02.34.57:635][494]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-02.37.12:224][618]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.14-02.37.13:705][737]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.14-02.38.42:438][ 97]LogTemp: Repeating last play command: Standalone Game
+[2018.01.14-02.38.44:555][ 97]LogSavePackage: Save=8.93ms
+[2018.01.14-02.38.44:555][ 97]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenDE91836A4D316E5B107FE8B127768066.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/_Scenes/StartScreen.umap'
+[2018.01.14-02.38.44:561][ 97]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/_Scenes/StartScreen.umap
+[2018.01.14-02.38.44:588][ 97]LogFileHelpers: Saving map 'StartScreen' took 0.118
+[2018.01.14-02.38.44:619][ 97]LogSavePackage: Save=17.96ms
+[2018.01.14-02.38.44:619][ 97]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode2347748A4496E9BFC7B33E9FBE886BB7.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-02.38.44:623][ 97]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-02.38.47:783][396]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-02.38.50:737][641]LogTemp: Repeating last play command: Standalone Game
+[2018.01.14-02.40.40:238][484]LogSavePackage: Save=20.78ms
+[2018.01.14-02.40.40:238][484]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode2A53E6AE436708BAEB9798A8D2408196.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-02.40.40:241][484]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-02.40.41:497][600]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-02.40.42:480][671]LogTemp: Repeating last play command: Standalone Game
+[2018.01.14-03.00.23:456][936]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Scenes/StartScreen' took 0.019
+[2018.01.14-03.00.23:458][936]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/StartScreenGameMode] ([1] browsable assets)...
+[2018.01.14-03.00.23:458][936]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/StartScreenGameMode]
+[2018.01.14-03.00.23:489][936]LogSavePackage: Save=20.85ms
+[2018.01.14-03.00.23:489][936]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode_Auto400032419471151FDDFD836BD34E01196.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/StartScreenGameMode_Auto4.uasset'
+[2018.01.14-03.00.23:491][936]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/StartScreenGameMode_Auto4.uasset
+[2018.01.14-03.00.23:491][936]LogFileHelpers: Auto-saving content packages took 0.034
+[2018.01.14-03.01.27:299][ 51]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.457 s
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: === Handled ensure: ===
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: 
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: Ensure condition failed: !FPackageName::IsShortPackageName(Path) [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\SoftObjectPath.cpp] [Line: 45]
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: Cannot create SoftObjectPath with short package name 'False'! You must pass in fully qualified package names
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: Stack: 
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x0000000052202786 UE4Editor-Core.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x0000000051FA123A UE4Editor-Core.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x0000000051FBB906 UE4Editor-Core.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x0000000051B3CF8C UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x0000000051A5B42F UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x0000000051A729FF UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x0000000051A6B30C UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x0000000051809024 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x0000000047F43F6C UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x000000003EBB7F2C UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x000000003EBEDF4C UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x000000003EBADE77 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x000000003EBA99E5 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x000000003EBA8C79 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x0000000047F3B33C UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x0000000047F4F393 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x000000003FE64FF9 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x000000003FDF2A67 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x000000003FDF6DC7 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x0000000051512F49 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x00000000515140A9 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x0000000051499C2B UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x00000000512B63A1 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x000000005128700E UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x0000000051288C16 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x000000005130988C UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x00000000512FBEE8 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x000000007122E28A UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x0000000071221A48 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x00000000712303EC UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x000000007121D5A9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x00000000A4BBB85D USER32.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x00000000A4BBB1EF USER32.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x0000000071231516 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x00000000FDDE50C8 UE4Editor.exe!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x00000000FDDF5430 UE4Editor.exe!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x00000000FDDF54AA UE4Editor.exe!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x00000000FDE02379 UE4Editor.exe!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x00000000FDE03D57 UE4Editor.exe!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x00000000A4191FE4 KERNEL32.DLL!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: [Callstack] 0x00000000A548EFB1 ntdll.dll!UnknownFunction []
+[2018.01.14-03.01.27:299][ 51]LogOutputDevice: Error: 
+[2018.01.14-03.01.27:308][ 51]LogStats:                SubmitErrorReport -  0.000 s
+[2018.01.14-03.01.27:969][ 51]LogStats:                    SendNewReport -  0.661 s
+[2018.01.14-03.01.27:969][ 51]LogStats:             FDebug::EnsureFailed -  1.128 s
+[2018.01.14-03.01.30:718][359]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-03.01.30:729][359]LogClass: Warning: Type mismatch in StartScreenWidget of StartScreenGameMode_C - Previous (BoolProperty) Current(ObjectProperty) for package:  FObjectReader
+[2018.01.14-03.03.23:840][435]LogSavePackage: Save=22.67ms
+[2018.01.14-03.03.23:840][435]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameModeD028FFEB447701C0B4B8FEAC773675AE.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.03.23:841][435]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset', retrying in .5s...
+[2018.01.14-03.03.24:342][435]LogFileManager: Error: Error deleting file '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'.
+[2018.01.14-03.03.24:342][435]LogSavePackage: Error: Error saving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.03.24:343][435]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-03.03.33:154][435]EditorErrors: New page: Save Output
+[2018.01.14-03.03.33:154][435]EditorErrors: Warning: Error saving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.04.10:081][263]LogSavePackage: Save=22.51ms
+[2018.01.14-03.04.10:081][263]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode680D609742BC29EB65A9B09A4275303A.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.04.10:082][263]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset', retrying in .5s...
+[2018.01.14-03.04.10:582][263]LogFileManager: Error: Error deleting file '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'.
+[2018.01.14-03.04.10:582][263]LogSavePackage: Error: Error saving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.04.10:584][263]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-03.04.14:876][263]LogSavePackage: Save=27.18ms
+[2018.01.14-03.04.14:876][263]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameModeBCB07C29487B0B3E83283F9328A1CF76.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.04.14:877][263]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset', retrying in .5s...
+[2018.01.14-03.04.15:378][263]LogFileManager: Error: Error deleting file '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'.
+[2018.01.14-03.04.15:378][263]LogSavePackage: Error: Error saving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.04.15:379][263]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-03.04.22:065][263]LogSavePackage: Save=24.76ms
+[2018.01.14-03.04.22:065][263]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode63C7D4444454E9B321DC809F1058313F.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.04.22:066][263]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset', retrying in .5s...
+[2018.01.14-03.04.22:566][263]LogFileManager: Error: Error deleting file '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'.
+[2018.01.14-03.04.22:566][263]LogSavePackage: Error: Error saving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.04.22:567][263]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-03.04.29:518][263]EditorErrors: New page: Save Output
+[2018.01.14-03.04.29:518][263]EditorErrors: Warning: Error saving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.04.29:518][263]EditorErrors: Warning: Error saving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.04.29:518][263]EditorErrors: Warning: Error saving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.04.31:144][448]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-03.04.32:637][580]LogSavePackage: Save=22.89ms
+[2018.01.14-03.04.32:638][580]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode3B8398F241B3A8830DFF43A6EA8498B7.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.04.32:638][580]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset', retrying in .5s...
+[2018.01.14-03.04.33:139][580]LogFileManager: Error: Error deleting file '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'.
+[2018.01.14-03.04.33:139][580]LogSavePackage: Error: Error saving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.04.33:140][580]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-03.04.36:585][580]EditorErrors: New page: Save Output
+[2018.01.14-03.04.36:585][580]EditorErrors: Warning: Error saving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.05.06:854][923]LogSavePackage: Save=7.15ms
+[2018.01.14-03.05.06:854][923]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreen18E48DEF47A296705BB18484CAF79B92.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/_Scenes/StartScreen.umap'
+[2018.01.14-03.05.06:856][923]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/_Scenes/StartScreen.umap
+[2018.01.14-03.05.08:631][ 97]LogSavePackage: Save=23.66ms
+[2018.01.14-03.05.08:631][ 97]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode7868A1174C7F934D2E6CECA0A47AFAFE.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.05.08:637][ 97]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-03.05.09:813][229]LogSavePackage: Save=22.98ms
+[2018.01.14-03.05.09:813][229]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode78A265AF408A9ECD67E4C7BE352AC03A.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.05.09:815][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-03.08.07:715][645]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-03.08.11:159][989]LogSavePackage: Save=23.89ms
+[2018.01.14-03.08.11:159][989]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode3DF77B68481FC9A5EFE14FA42D8E4351.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.08.11:162][989]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-03.10.36:132][775]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/StartScreenPlayer.StartScreenPlayer:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/StartScreenCharacter.PackageMetaData'
+[2018.01.14-03.10.36:132][775]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/StartScreenPlayer.SKEL_StartScreenPlayer_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/StartScreenCharacter.PackageMetaData'
+[2018.01.14-03.10.36:132][775]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/StartScreenPlayer.StartScreenPlayer_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/StartScreenCharacter.PackageMetaData'
+[2018.01.14-03.10.36:132][775]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/StartScreenPlayer.StartScreenPlayer:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/StartScreenCharacter.PackageMetaData'
+[2018.01.14-03.10.36:133][775]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/StartScreenPlayer.StartScreenPlayer:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/StartScreenCharacter.PackageMetaData'
+[2018.01.14-03.10.36:174][775]LogSavePackage: Save=10.98ms
+[2018.01.14-03.10.36:174][775]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenPlayer59F706814C20B2A75C43F58F6E8F949F.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenPlayer.uasset'
+[2018.01.14-03.10.36:177][775]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenPlayer.uasset
+[2018.01.14-03.11.45:370][788]LogEditorActor: Deleted Actor: Actor
+[2018.01.14-03.11.45:371][788]LogEditorActor: Deleted Actor: Actor
+[2018.01.14-03.11.45:383][788]LogEditorActor: Deleted 2 Actors (0.013 secs)
+[2018.01.14-03.12.29:606][366]LogEditorViewport: Clicking Background
+[2018.01.14-03.12.30:206][437]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.01.14-03.13.30:589][350]LogSavePackage: Save=10.67ms
+[2018.01.14-03.13.30:589][350]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenF15788FE4B2F1D1833EC40B9B3D911A4.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/_Scenes/StartScreen.umap'
+[2018.01.14-03.13.30:593][350]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/_Scenes/StartScreen.umap
+[2018.01.14-03.16.47:112][ 52]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-03.18.45:110][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.18.45:133][635]LogSavePackage: Save=15.22ms
+[2018.01.14-03.18.45:133][635]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen5B3F97624BA2E8E7D5A4B4AEB90B61EC.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.18.45:137][635]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.18.46:849][832]LogSavePackage: Save=23.18ms
+[2018.01.14-03.18.46:849][832]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode7947B23542A62467F833C0B3A837DC1E.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.18.46:853][832]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-03.24.56:342][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.24.56:372][468]LogSavePackage: Save=22.12ms
+[2018.01.14-03.24.56:372][468]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen8A7AE6CD4B622760D7B6918EE72FFFEC.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.24.56:377][468]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.25.13:307][154]BlueprintLog: New page: Compile UI_Start_Screen
+[2018.01.14-03.25.13:322][154]LogBlueprint: Error: [Compiler UI_Start_Screen] The type of  Object  is undetermined.  Connect something to  Cast To StartScreenGameMode  to imply a specific type.
+[2018.01.14-03.25.13:322][154]LogBlueprint: Warning: [Compiler UI_Start_Screen] Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2018.01.14-03.25.13:322][154]LogBlueprint: Error: [Compiler UI_Start_Screen] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2018.01.14-03.25.13:345][154]LogBlueprint: Warning: [Compiler UI_Start_Screen] [5424.17] Compile of UI_Start_Screen failed. 2 Fatal Issue(s) 1 Warning(s) [in 37 ms] (/Game/UI/UI_Start_Screen.UI_Start_Screen)
+[2018.01.14-03.26.02:910][658]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-03.26.42:956][700]LogSavePackage: Save=24.03ms
+[2018.01.14-03.26.42:956][700]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameModeF60225C2405EABBE8C751BB4E1E94E98.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.26.42:960][700]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-03.27.23:735][879]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Scenes/StartScreen' took 0.024
+[2018.01.14-03.27.23:737][879]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/StartScreenGameMode] ([1] browsable assets)...
+[2018.01.14-03.27.23:737][879]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/StartScreenGameMode]
+[2018.01.14-03.27.23:768][879]LogSavePackage: Save=28.08ms
+[2018.01.14-03.27.23:768][879]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode_Auto5B47C59FC4E1E9BC2C209B187E4D55A52.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/StartScreenGameMode_Auto5.uasset'
+[2018.01.14-03.27.23:770][879]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/StartScreenGameMode_Auto5.uasset
+[2018.01.14-03.27.23:770][879]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/UI_Start_Screen] ([1] browsable assets)...
+[2018.01.14-03.27.23:770][879]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/UI_Start_Screen]
+[2018.01.14-03.27.23:796][879]LogSavePackage: Save=22.62ms
+[2018.01.14-03.27.23:796][879]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen_Auto5E43A02AC46EFF2E6BA85BC8E05E0ABF0.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/Autosaves/Game/UI/UI_Start_Screen_Auto5.uasset'
+[2018.01.14-03.27.23:797][879]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/Autosaves/Game/UI/UI_Start_Screen_Auto5.uasset
+[2018.01.14-03.27.23:798][879]LogFileHelpers: Auto-saving content packages took 0.062
+[2018.01.14-03.27.42:471][292]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.14-03.28.39:669][250]BlueprintLog: New page: Compile SwitchboardInstance
+[2018.01.14-03.28.42:979][581]LogSavePackage: Save=5.38ms
+[2018.01.14-03.28.42:979][581]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/SwitchboardInstance8BC0D7FF4ECD7A1F6C4A4DA9A4833881.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/SwitchboardInstance.uasset'
+[2018.01.14-03.28.42:982][581]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/SwitchboardInstance.uasset
+[2018.01.14-03.29.26:270][898]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-03.29.29:723][130]BlueprintLog: New page: Compile SwitchboardInstance
+[2018.01.14-03.29.30:797][194]LogSavePackage: Save=6.22ms
+[2018.01.14-03.29.30:797][194]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/SwitchboardInstance602D3FE449596088DEC5A9843275DE2F.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/SwitchboardInstance.uasset'
+[2018.01.14-03.29.30:799][194]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/SwitchboardInstance.uasset
+[2018.01.14-03.30.05:731][995]Cmd: ACTOR SELECT OFCLASS CLASS=PlayerStart
+[2018.01.14-03.31.06:737][152]LogSavePackage: Save=26.90ms
+[2018.01.14-03.31.06:737][152]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode6EA17D4A402B8863C7D28CABF8DF508D.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.31.06:744][152]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-03.32.13:761][484]LogSavePackage: Save=27.58ms
+[2018.01.14-03.32.13:761][484]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode23D9E06142FCC706800715970DB2A64E.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.32.13:763][484]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-03.32.42:184][952]LogSavePackage: Save=27.59ms
+[2018.01.14-03.32.42:184][952]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameModeC5DF630F4C8C0FCFC34682849BD5B3C2.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.32.42:186][952]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-03.32.57:651][788]LogSavePackage: Save=20.90ms
+[2018.01.14-03.32.57:651][788]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode8009E75C4F656F7C639D42BE808ECAD0.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.32.57:656][788]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-03.33.02:492][351]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-03.33.12:823][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.33.12:854][451]LogSavePackage: Save=22.81ms
+[2018.01.14-03.33.12:854][451]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen9D8CE4454C437F1EA2088CB62B18F621.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.33.12:858][451]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.33.15:256][732]BlueprintLog: New page: Compile UI_Start_Screen
+[2018.01.14-03.33.15:273][732]LogBlueprint: Warning: [Compiler UI_Start_Screen] Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2018.01.14-03.33.15:295][732]LogBlueprint: Warning: [Compiler UI_Start_Screen] [5906.12] Compile of UI_Start_Screen successful, but with 1 Warning(s) [in 38 ms] (/Game/UI/UI_Start_Screen.UI_Start_Screen)
+[2018.01.14-03.33.20:225][312]BlueprintLog: New page: Compile UI_Start_Screen
+[2018.01.14-03.33.20:237][312]LogBlueprint: Warning: [Compiler UI_Start_Screen] Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2018.01.14-03.33.20:260][312]LogBlueprint: Warning: [Compiler UI_Start_Screen] [5911.08] Compile of UI_Start_Screen successful, but with 1 Warning(s) [in 35 ms] (/Game/UI/UI_Start_Screen.UI_Start_Screen)
+[2018.01.14-03.34.38:844][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.34.38:876][384]LogSavePackage: Save=27.68ms
+[2018.01.14-03.34.38:876][384]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen738B36114DED44A650542082D6C9D4D6.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.34.38:879][384]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.34.52:802][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.34.52:829][844]LogSavePackage: Save=24.47ms
+[2018.01.14-03.34.52:829][844]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen71B306A341E2784861D77D8CD0C11DD6.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.34.52:833][844]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.35.28:086][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.35.28:114][655]LogSavePackage: Save=24.85ms
+[2018.01.14-03.35.28:114][655]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen08FEAD89432F2AB69C606DBAD26F542C.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.35.28:118][655]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.35.35:094][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.35.35:122][950]LogSavePackage: Save=24.80ms
+[2018.01.14-03.35.35:122][950]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen7817D0E6486F2C9D73C79693D23BE3FB.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.35.35:126][950]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.36.34:709][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.36.34:743][364]LogSavePackage: Save=31.19ms
+[2018.01.14-03.36.34:743][364]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_ScreenD2D45BBE45D76A98B86D2AA6ACD77CFC.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.36.34:747][364]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.37.05:684][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.37.05:716][765]LogSavePackage: Save=28.16ms
+[2018.01.14-03.37.05:716][765]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_ScreenE0F742F944509B34B0EAB9AD23BE25CC.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.37.05:720][765]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.37.19:005][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.37.19:035][903]LogSavePackage: Save=27.26ms
+[2018.01.14-03.37.19:035][903]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen40FDE8E24AFF7E4223223B8180E4C8E9.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.37.19:041][903]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.37.57:806][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.37.57:837][623]LogSavePackage: Save=27.88ms
+[2018.01.14-03.37.57:837][623]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen7524DBB341AFDCCF165618835BBD9A06.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.37.57:840][623]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.37.59:121][721]BlueprintLog: New page: Compile UI_Start_Screen
+[2018.01.14-03.38.02:544][981]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-03.38.04:126][144]BlueprintLog: New page: Compile SwitchboardInstance
+[2018.01.14-03.38.06:471][345]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-03.38.08:715][525]LogTemp: Repeating last play command: Standalone Game
+[2018.01.14-03.38.54:600][830]LogEditorViewport: Clicking Background
+[2018.01.14-03.38.56:451][ 51]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.01.14-03.38.56:670][ 74]Cmd: DELETE
+[2018.01.14-03.38.56:670][ 74]Cmd: ACTOR DELETE
+[2018.01.14-03.38.56:671][ 74]LogEditorActor: Deleted Actor: PlayerStart
+[2018.01.14-03.38.56:688][ 74]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.01.14-03.38.57:441][158]LogSavePackage: Save=7.20ms
+[2018.01.14-03.38.57:441][158]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreen2B2A1DED4B34351245DCAC8B1F83F116.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/_Scenes/StartScreen.umap'
+[2018.01.14-03.38.57:445][158]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/_Scenes/StartScreen.umap
+[2018.01.14-03.38.58:715][296]LogTemp: Repeating last play command: Standalone Game
+[2018.01.14-03.40.19:887][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.40.19:927][967]LogSavePackage: Save=31.19ms
+[2018.01.14-03.40.19:927][967]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_ScreenA9C968394EB5D65AD6B9BA8E75286E9E.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.40.19:930][967]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.41.07:578][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.41.07:609][368]LogSavePackage: Save=28.59ms
+[2018.01.14-03.41.07:609][368]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_ScreenFA2E003F48894C71ED9D2C8F81FC5C1B.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.41.07:613][368]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.41.23:895][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.41.23:927][201]LogSavePackage: Save=28.14ms
+[2018.01.14-03.41.23:927][201]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen2AC8BF3048803CD519124C8475540BDF.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.41.23:929][201]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.41.30:780][736]LogTemp: Repeating last play command: Standalone Game
+[2018.01.14-03.42.37:296][ 17]LogSavePackage: Save=22.88ms
+[2018.01.14-03.42.37:296][ 17]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameModeA796C278450BE5369E01D59C06795F40.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.42.37:297][ 17]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset', retrying in .5s...
+[2018.01.14-03.42.37:798][ 17]LogFileManager: Error: Error deleting file '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'.
+[2018.01.14-03.42.37:798][ 17]LogSavePackage: Error: Error saving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.42.37:800][ 17]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-03.42.39:261][ 17]EditorErrors: New page: Save Output
+[2018.01.14-03.42.39:261][ 17]EditorErrors: Warning: Error saving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.42.51:013][481]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-03.42.52:059][552]LogSavePackage: Save=22.00ms
+[2018.01.14-03.42.52:060][552]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode0187DBA04FD21061EB7DC99864898EEB.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.42.52:063][552]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-03.42.59:342][289]LogTemp: Repeating last play command: Standalone Game
+[2018.01.14-03.43.52:423][161]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-03.43.53:586][223]LogSavePackage: Save=23.71ms
+[2018.01.14-03.43.53:586][223]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameModeDFD8F5364E99C4803B4306A94FD6E326.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.43.53:587][223]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset', retrying in .5s...
+[2018.01.14-03.43.54:087][223]LogFileManager: Error: Error deleting file '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'.
+[2018.01.14-03.43.54:087][223]LogSavePackage: Error: Error saving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.43.54:088][223]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-03.43.55:297][223]EditorErrors: New page: Save Output
+[2018.01.14-03.43.55:297][223]EditorErrors: Warning: Error saving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.44.02:974][577]LogSavePackage: Save=21.60ms
+[2018.01.14-03.44.02:974][577]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameModeCA29A6EC45CC13E1BB5526B65C319389.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.44.02:977][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-03.44.03:682][646]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-03.44.05:786][771]BlueprintLog: New page: Compile UI_Start_Screen
+[2018.01.14-03.44.07:863][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.44.07:896][922]LogSavePackage: Save=30.56ms
+[2018.01.14-03.44.07:896][922]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_ScreenD9D0B304435653465B0E52A6544EE545.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.44.07:898][922]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.44.13:417][485]BlueprintLog: New page: Compile SwitchboardInstance
+[2018.01.14-03.44.13:963][516]LogSavePackage: Save=5.57ms
+[2018.01.14-03.44.13:963][516]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/SwitchboardInstance93C1264947954AB171F3C58AD3DB724F.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/SwitchboardInstance.uasset'
+[2018.01.14-03.44.13:964][516]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/SwitchboardInstance.uasset
+[2018.01.14-03.44.15:529][689]LogTemp: Repeating last play command: Standalone Game
+[2018.01.14-03.45.33:371][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.45.33:411][810]LogSavePackage: Save=30.61ms
+[2018.01.14-03.45.33:411][810]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_ScreenDBEF2BF44B76A435AABD0B8AE4C7ECBD.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.45.33:414][810]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.46.09:550][900]LogSavePackage: Save=22.07ms
+[2018.01.14-03.46.09:550][900]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameModeFB0CDD4F4BF264844A21BE93F9679C02.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.46.09:555][900]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-03.46.49:556][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.46.49:588][983]LogSavePackage: Save=29.01ms
+[2018.01.14-03.46.49:588][983]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen0E91D8E5407D74E43F9C0E8C17F9187D.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.46.49:591][983]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.46.51:014][144]BlueprintLog: New page: Compile UI_Start_Screen
+[2018.01.14-03.47.46:040][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.47.46:074][641]LogSavePackage: Save=30.81ms
+[2018.01.14-03.47.46:074][641]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen0EFA6161408EAB45EC9D2FABD0E6DF00.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.47.46:078][641]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.48.27:494][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.48.27:528][702]LogSavePackage: Save=31.15ms
+[2018.01.14-03.48.27:528][702]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen37BE07944AEC52DDC3B6AF8F175AAD9A.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.48.27:532][702]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.48.31:570][156]BlueprintLog: New page: Compile UI_Start_Screen
+[2018.01.14-03.48.33:533][361]LogTemp: Repeating last play command: Standalone Game
+[2018.01.14-03.49.31:900][547]LogTemp: Repeating last play command: Standalone Game
+[2018.01.14-03.50.27:695][245]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.50.27:734][245]LogSavePackage: Save=35.44ms
+[2018.01.14-03.50.27:734][245]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen1662AE5648FD047FA666809DC0CC3F1B.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.50.27:738][245]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.50.28:983][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.50.29:017][351]LogSavePackage: Save=30.82ms
+[2018.01.14-03.50.29:017][351]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen472AA252467A35E9F501B1B912BB74DF.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.50.29:020][351]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.50.30:342][491]BlueprintLog: New page: Compile UI_Start_Screen
+[2018.01.14-03.50.32:657][707]LogTemp: Repeating last play command: Standalone Game
+[2018.01.14-03.52.57:229][ 27]LogEditorTransaction: Undo Move Nodes
+[2018.01.14-03.54.03:771][952]LogSavePackage: Save=25.20ms
+[2018.01.14-03.54.03:771][952]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode6C5F1FE94B8A9AF7349BAC8BA9F8317F.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.54.03:778][952]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-03.54.15:583][870]LogSavePackage: Save=27.56ms
+[2018.01.14-03.54.15:583][870]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode73E30FDF4F3CEC91C1C7818AE1392344.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-03.54.15:587][870]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-03.54.16:743][  5]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-03.54.30:940][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.54.30:980][495]LogSavePackage: Save=32.43ms
+[2018.01.14-03.54.30:980][495]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen33C290114CBED9EED227178A6C00C6E1.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.54.30:984][495]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.54.36:784][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.54.36:818][ 26]LogSavePackage: Save=30.97ms
+[2018.01.14-03.54.36:818][ 26]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_ScreenEBB53B9C4488F3AE9776D1B27C27C8C8.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.54.36:822][ 26]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.54.40:058][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.54.40:094][258]LogSavePackage: Save=32.25ms
+[2018.01.14-03.54.40:094][258]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen10A6DA82419B861D31638BBD2102CA63.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.54.40:099][258]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.54.42:059][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.54.42:096][396]LogSavePackage: Save=33.22ms
+[2018.01.14-03.54.42:096][396]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen01BC15BE4F77E1A9B3EBD28DF441F849.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.54.42:100][396]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.54.47:813][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.54.47:848][ 31]LogSavePackage: Save=32.17ms
+[2018.01.14-03.54.47:848][ 31]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen8F0C1AB74A1DF4033846E0879CF56B76.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.54.47:852][ 31]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.54.52:645][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.54.52:680][361]LogSavePackage: Save=30.70ms
+[2018.01.14-03.54.52:680][361]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_ScreenEB9BF6EF4CD5020FD53563B121DDC639.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.54.52:683][361]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-03.55.03:818][342]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-03.55.05:251][407]BlueprintLog: New page: Compile UI_Start_Screen
+[2018.01.14-03.55.06:824][515]BlueprintLog: New page: Compile SwitchboardInstance
+[2018.01.14-03.58.30:434][769]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Scenes/StartScreen' took 0.020
+[2018.01.14-03.58.30:437][769]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/UI_Start_Screen] ([1] browsable assets)...
+[2018.01.14-03.58.30:438][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/UI_Start_Screen]
+[2018.01.14-03.58.30:474][769]LogSavePackage: Save=30.38ms
+[2018.01.14-03.58.30:474][769]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen_Auto66A94A35E4D8A409727B454A3277D64B1.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/Autosaves/Game/UI/UI_Start_Screen_Auto6.uasset'
+[2018.01.14-03.58.30:475][769]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/Autosaves/Game/UI/UI_Start_Screen_Auto6.uasset
+[2018.01.14-03.58.30:475][769]LogFileHelpers: Auto-saving content packages took 0.039
+[2018.01.14-03.59.00:296][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-03.59.00:327][212]LogSavePackage: Save=28.55ms
+[2018.01.14-03.59.00:327][212]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_ScreenFF769C0D44C8FAD453D1ECB249365352.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-03.59.00:331][212]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-04.00.31:273][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-04.00.31:309][113]LogSavePackage: Save=27.81ms
+[2018.01.14-04.00.31:309][113]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen5A5552BA47A7D6A6EED814B9E3F39ADB.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-04.00.31:312][113]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-04.00.49:580][985]LogEditorTransaction: Undo Delete current selection
+[2018.01.14-04.00.55:726][603]Cmd: TRANSACTION UNDO
+[2018.01.14-04.00.55:726][603]LogEditorTransaction: Undo Rename Node
+[2018.01.14-04.00.59:755][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-04.00.59:786][ 21]LogSavePackage: Save=28.15ms
+[2018.01.14-04.00.59:786][ 21]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_ScreenF88C07BD4A9E001286E2BDB112DA94B9.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-04.00.59:791][ 21]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-04.01.35:987][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-04.01.36:018][870]LogSavePackage: Save=27.77ms
+[2018.01.14-04.01.36:018][870]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen4D8938584E8CD3B996EE73A5DF6B9C4B.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-04.01.36:021][870]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-04.01.41:037][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-04.01.41:067][407]LogSavePackage: Save=26.77ms
+[2018.01.14-04.01.41:067][407]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen935886ED4AA9FB209FC5E6B413956A0F.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-04.01.41:070][407]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-04.01.46:868][  7]LogTemp: Repeating last play command: Standalone Game
+[2018.01.14-04.03.28:994][698]LogSavePackage: Save=27.91ms
+[2018.01.14-04.03.28:994][698]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode5A9DC4C041D99766BCCA62BF663148FA.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.03.28:997][698]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.03.30:671][852]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-04.03.31:748][929]LogTemp: Repeating last play command: Standalone Game
+[2018.01.14-04.03.51:052][585]LogTemp: Repeating last play command: Standalone Game
+[2018.01.14-04.05.13:147][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-04.05.13:179][442]LogSavePackage: Save=27.88ms
+[2018.01.14-04.05.13:179][442]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_ScreenEACE3E894C962279079A0DB322283C44.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-04.05.13:184][442]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-04.05.16:967][858]LogTemp: Repeating last play command: Standalone Game
+[2018.01.14-04.05.19:481][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-04.05.19:512][858]LogSavePackage: Save=27.93ms
+[2018.01.14-04.05.19:512][858]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_ScreenAEA831904BF5E70AB14A808F99834BF9.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-04.05.19:516][858]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-04.05.22:799][203]BlueprintLog: New page: Compile UI_Start_Screen
+[2018.01.14-04.05.23:925][317]LogTemp: Repeating last play command: Standalone Game
+[2018.01.14-04.05.44:220][670]LogTemp: Repeating last play command: Standalone Game
+[2018.01.14-04.08.54:939][751]LogSavePackage: Save=33.61ms
+[2018.01.14-04.08.54:939][751]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode5A65D07646DFFDC6CAD726858939EE0E.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.08.54:945][751]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.09.23:101][270]LogSavePackage: Save=34.24ms
+[2018.01.14-04.09.23:101][270]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameModeE681581042A2E93A82770E942B4E8EB9.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.09.23:105][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.09.30:473][ 14]LogSavePackage: Save=33.75ms
+[2018.01.14-04.09.30:473][ 14]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode4BD34D934F0A749430E464A954B2C746.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.09.30:476][ 14]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.09.38:889][710]LogSavePackage: Save=34.32ms
+[2018.01.14-04.09.38:889][710]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode386FA7094FAAD5BD97E5B6B718D4B8CE.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.09.38:892][710]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.10.00:425][579]LogSavePackage: Save=36.07ms
+[2018.01.14-04.10.00:425][579]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode293C566B433B13D93EDDEC9169278217.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.10.00:428][579]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.10.07:306][852]LogSavePackage: Save=35.31ms
+[2018.01.14-04.10.07:306][852]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameModeC524649D4564D90FFD3445B7257D42F5.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.10.07:309][852]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.10.17:150][611]LogSavePackage: Save=36.92ms
+[2018.01.14-04.10.17:150][611]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode8BC26A7C4144488B7AD7C78DFE77976F.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.10.17:152][611]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.10.20:456][908]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-04.10.39:665][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-04.10.39:706][497]LogSavePackage: Save=31.99ms
+[2018.01.14-04.10.39:706][497]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen1FC9A9D94A556AA9C99825883C020A40.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-04.10.39:709][497]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-04.11.10:823][155]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-04.11.11:859][216]BlueprintLog: New page: Compile SwitchboardInstance
+[2018.01.14-04.11.13:168][320]BlueprintLog: New page: Compile UI_Start_Screen
+[2018.01.14-04.11.15:666][538]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-04.11.22:385][277]LogEditorTransaction: Undo Delete current selection
+[2018.01.14-04.11.37:901][735]LogSavePackage: Save=38.17ms
+[2018.01.14-04.11.37:901][735]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode7287B07F4ED6F0B9CEC96C83367F6031.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.11.37:905][735]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.11.41:972][158]LogSavePackage: Save=36.13ms
+[2018.01.14-04.11.41:972][158]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode6992C2214B75BCFF50A0E5BF8B6E059D.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.11.41:975][158]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.11.50:447][992]LogSavePackage: Save=37.73ms
+[2018.01.14-04.11.50:447][992]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode631A448D42A18652D6D7C482CAD7BFEB.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.11.50:451][992]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.11.50:647][  6]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-04.11.53:807][264]LogSavePackage: Save=7.76ms
+[2018.01.14-04.11.53:807][264]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreen4608E66A4453C4D5462FA68718E7624C.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/_Scenes/StartScreen.umap'
+[2018.01.14-04.11.53:808][264]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/_Scenes/StartScreen.umap
+[2018.01.14-04.11.54:574][325]LogTemp: Repeating last play command: Standalone Game
+[2018.01.14-04.12.50:136][288]LogSavePackage: Save=36.55ms
+[2018.01.14-04.12.50:136][288]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameModeFB0456C440273516F5B37987A627681C.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.12.50:140][288]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.12.56:967][  2]LogSavePackage: Save=36.20ms
+[2018.01.14-04.12.56:967][  2]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode22EEB77D446D101F0605B890B595DAC8.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.12.56:971][  2]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.13.01:502][469]LogSavePackage: Save=36.27ms
+[2018.01.14-04.13.01:503][469]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameModeC2825873407C82CC325668959A07086B.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.13.01:506][469]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.13.02:004][510]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-04.13.08:758][124]LogSavePackage: Save=37.68ms
+[2018.01.14-04.13.08:758][124]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameModeCDFB6881441D74EA228E3E99AA1AFE97.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.13.08:762][124]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.13.11:285][342]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-04.13.22:867][280]LogSavePackage: Save=38.19ms
+[2018.01.14-04.13.22:867][280]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode4F00BFDC4E2E11081CD32983589110F3.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.13.22:871][280]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.13.25:554][460]LogSavePackage: Save=37.83ms
+[2018.01.14-04.13.25:554][460]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameModeF2E285E54B54FAEF4C0C338424C54220.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.13.25:557][460]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.13.29:289][713]LogSavePackage: Save=37.17ms
+[2018.01.14-04.13.29:289][713]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode04C224B446114D969B14F4AA2B74D391.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.13.29:293][713]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.13.30:865][892]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-04.13.36:126][419]LogTemp: Repeating last play command: Standalone Game
+[2018.01.14-04.13.56:672][713]LogTemp: Repeating last play command: Standalone Game
+[2018.01.14-04.14.19:163][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-04.14.19:194][535]LogSavePackage: Save=28.73ms
+[2018.01.14-04.14.19:194][535]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen921660E84198C5CF1729CAA128FBF1D4.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-04.14.19:196][535]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-04.14.57:249][695]LogSavePackage: Save=8.72ms
+[2018.01.14-04.14.57:249][695]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/SwitchboardInstanceA330940A423446CCA3BAB584836607D6.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/SwitchboardInstance.uasset'
+[2018.01.14-04.14.57:253][695]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/SwitchboardInstance.uasset
+[2018.01.14-04.15.01:462][180]LogSavePackage: Save=5.96ms
+[2018.01.14-04.15.01:462][180]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/SwitchboardInstanceD48AF97F498F19792815788E3CB218BE.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/SwitchboardInstance.uasset'
+[2018.01.14-04.15.01:465][180]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/SwitchboardInstance.uasset
+[2018.01.14-04.15.41:137][913]BlueprintLog: New page: Compile SwitchboardInstance
+[2018.01.14-04.16.05:783][671]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-04.16.05:818][671]LogSavePackage: Save=27.14ms
+[2018.01.14-04.16.05:818][671]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen30C2D07B47F27FDAB7D9CCAB2630D45C.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-04.16.05:821][671]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-04.16.30:337][137]LogSavePackage: Save=37.38ms
+[2018.01.14-04.16.30:338][137]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode075E38F14144A060F0C363B41ABBFC0A.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.16.30:341][137]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.16.36:459][688]LogSavePackage: Save=38.27ms
+[2018.01.14-04.16.36:459][688]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode060F468943D6083850B371A5F4E370A4.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.16.36:462][688]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.16.37:307][776]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-04.16.38:880][875]BlueprintLog: New page: Compile UI_Start_Screen
+[2018.01.14-04.16.40:719][ 40]BlueprintLog: New page: Compile SwitchboardInstance
+[2018.01.14-04.16.42:871][207]LogSavePackage: Save=37.35ms
+[2018.01.14-04.16.42:871][207]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode6CE1DC724F80951DC0D3B88A64A7448A.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.16.42:872][207]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.16.43:778][282]LogSavePackage: Save=7.72ms
+[2018.01.14-04.16.43:778][282]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreen2104B4D14C826593C85C29A577387462.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/_Scenes/StartScreen.umap'
+[2018.01.14-04.16.43:781][282]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/_Scenes/StartScreen.umap
+[2018.01.14-04.16.54:927][320]LogSavePackage: Save=7.48ms
+[2018.01.14-04.16.54:927][320]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreen382BE15145E774757E7513AF5DFF20F9.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/_Scenes/StartScreen.umap'
+[2018.01.14-04.16.54:928][320]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/_Scenes/StartScreen.umap
+[2018.01.14-04.16.58:133][586]LogSavePackage: Save=37.65ms
+[2018.01.14-04.16.58:133][586]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode1A969F6A490785BCCCEB328FF97B3A4E.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.16.58:134][586]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.16.58:392][606]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-04.17.00:162][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-04.17.00:193][734]LogSavePackage: Save=27.63ms
+[2018.01.14-04.17.00:193][734]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen1B83488F4B70E5B7723782B1C62B2EB7.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-04.17.00:194][734]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-04.17.00:467][749]BlueprintLog: New page: Compile UI_Start_Screen
+[2018.01.14-04.17.01:894][857]LogSavePackage: Save=5.42ms
+[2018.01.14-04.17.01:894][857]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/SwitchboardInstance24E1090642ECD10AE269879C577C842D.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/SwitchboardInstance.uasset'
+[2018.01.14-04.17.01:896][857]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/SwitchboardInstance.uasset
+[2018.01.14-04.17.02:146][876]BlueprintLog: New page: Compile SwitchboardInstance
+[2018.01.14-04.17.50:158][189]BlueprintLog: New page: Compile UI_Start_Screen
+[2018.01.14-04.17.50:558][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Start_Screen" FILE="../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset" SILENT=true
+[2018.01.14-04.17.50:588][220]LogSavePackage: Save=27.49ms
+[2018.01.14-04.17.50:588][220]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/UI_Start_Screen7140A71446E3A3CFCBA0D8AD0324B0D4.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset'
+[2018.01.14-04.17.50:592][220]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/UI/UI_Start_Screen.uasset
+[2018.01.14-04.17.51:887][348]BlueprintLog: New page: Compile StartScreenGameMode
+[2018.01.14-04.17.52:261][358]LogSavePackage: Save=39.91ms
+[2018.01.14-04.17.52:261][358]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/StartScreenGameMode06A09747473D9842FD315E82C4ECB71D.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset'
+[2018.01.14-04.17.52:263][358]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/StartScreenGameMode.uasset
+[2018.01.14-04.17.53:200][449]LogSavePackage: Save=6.23ms
+[2018.01.14-04.17.53:200][449]LogSavePackage: Moving '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/SwitchboardInstance6983EC894165E46DA1F2E09DFB89EAFB.tmp' to '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/SwitchboardInstance.uasset'
+[2018.01.14-04.17.53:203][449]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/ThirdPersonBP/Blueprints/SwitchboardInstance.uasset
+[2018.01.14-04.17.53:583][487]BlueprintLog: New page: Compile SwitchboardInstance
+[2018.01.14-04.18.03:133][ 22]Cmd: QUIT_EDITOR
+[2018.01.14-04.18.03:152][ 22]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.14-04.18.03:196][ 22]LogExit: Preparing to exit.
+[2018.01.14-04.18.03:721][ 22]LogDirectoryWatcher: A directory notification for 'D:/Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/' was aborted.
+[2018.01.14-04.18.03:789][ 22]LogExit: Editor shut down
+[2018.01.14-04.18.03:813][ 22]LogExit: Transaction tracking system shut down
+[2018.01.14-04.18.04:045][ 22]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.14-04.18.04:045][ 22]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.01.14-04.18.04:045][ 22]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.01.14-04.18.04:045][ 22]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.01.14-04.18.04:045][ 22]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.01.14-04.18.04:316][ 22]LogExit: Object subsystem successfully closed.
+[2018.01.14-04.18.04:347][ 22]LogD3D11RHI: Shutdown
+[2018.01.14-04.18.04:347][ 22]LogD3D11RHI: CleanupD3DDevice
+[2018.01.14-04.18.04:353][ 22]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.14-04.18.04:360][ 22]LogModuleManager: Shutting down and abandoning module SequencerWidgets (554)
+[2018.01.14-04.18.04:360][ 22]LogModuleManager: Shutting down and abandoning module BlueprintGraph (552)
+[2018.01.14-04.18.04:360][ 22]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2018.01.14-04.18.04:360][ 22]LogModuleManager: Shutting down and abandoning module SceneOutliner (548)
+[2018.01.14-04.18.04:360][ 22]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
+[2018.01.14-04.18.04:360][ 22]LogDirectoryWatcher: A directory notification for 'D:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.01.14-04.18.04:370][ 22]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
+[2018.01.14-04.18.04:370][ 22]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
+[2018.01.14-04.18.04:370][ 22]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
+[2018.01.14-04.18.04:371][ 22]LogDirectoryWatcher: A directory notification for 'D:/Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/Collections/' was aborted.
+[2018.01.14-04.18.04:371][ 22]LogDirectoryWatcher: A directory notification for 'D:/Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/Developers/Dan/Collections/' was aborted.
+[2018.01.14-04.18.04:371][ 22]LogDirectoryWatcher: A directory notification for 'D:/Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Saved/Collections/' was aborted.
+[2018.01.14-04.18.04:371][ 22]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (538)
+[2018.01.14-04.18.04:371][ 22]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.01.14-04.18.04:371][ 22]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.01.14-04.18.04:371][ 22]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.01.14-04.18.04:371][ 22]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.01.14-04.18.04:371][ 22]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.01.14-04.18.04:371][ 22]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.01.14-04.18.04:371][ 22]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.01.14-04.18.04:371][ 22]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.01.14-04.18.04:371][ 22]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.01.14-04.18.04:371][ 22]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.01.14-04.18.04:371][ 22]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.01.14-04.18.04:371][ 22]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.01.14-04.18.04:371][ 22]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.01.14-04.18.04:371][ 22]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.01.14-04.18.04:371][ 22]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.01.14-04.18.04:372][ 22]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.01.14-04.18.04:372][ 22]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.01.14-04.18.04:372][ 22]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.01.14-04.18.04:372][ 22]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.01.14-04.18.04:372][ 22]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.01.14-04.18.04:372][ 22]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.01.14-04.18.04:372][ 22]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.01.14-04.18.04:372][ 22]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.01.14-04.18.04:372][ 22]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.01.14-04.18.04:372][ 22]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.01.14-04.18.04:372][ 22]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.01.14-04.18.04:372][ 22]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.01.14-04.18.04:372][ 22]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.01.14-04.18.04:372][ 22]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.01.14-04.18.04:372][ 22]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.01.14-04.18.04:372][ 22]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.01.14-04.18.04:372][ 22]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.01.14-04.18.04:372][ 22]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.01.14-04.18.04:372][ 22]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.01.14-04.18.04:373][ 22]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.01.14-04.18.04:373][ 22]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.01.14-04.18.04:373][ 22]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.01.14-04.18.04:373][ 22]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.01.14-04.18.04:373][ 22]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.01.14-04.18.04:373][ 22]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.01.14-04.18.04:373][ 22]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.01.14-04.18.04:770][ 22]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.01.14-04.18.04:770][ 22]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.01.14-04.18.04:770][ 22]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.01.14-04.18.04:770][ 22]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.01.14-04.18.04:770][ 22]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.01.14-04.18.04:770][ 22]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.01.14-04.18.04:770][ 22]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.01.14-04.18.04:770][ 22]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.01.14-04.18.04:770][ 22]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.01.14-04.18.04:770][ 22]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.01.14-04.18.04:770][ 22]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.01.14-04.18.04:770][ 22]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.01.14-04.18.04:770][ 22]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.01.14-04.18.04:770][ 22]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.01.14-04.18.04:771][ 22]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.01.14-04.18.04:771][ 22]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.01.14-04.18.04:771][ 22]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.01.14-04.18.04:771][ 22]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.01.14-04.18.04:771][ 22]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.01.14-04.18.04:771][ 22]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.01.14-04.18.04:771][ 22]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.01.14-04.18.04:771][ 22]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.01.14-04.18.04:771][ 22]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.01.14-04.18.04:771][ 22]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.01.14-04.18.04:836][ 22]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.01.14-04.18.04:836][ 22]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.01.14-04.18.04:836][ 22]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.01.14-04.18.04:836][ 22]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.01.14-04.18.04:836][ 22]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.01.14-04.18.04:836][ 22]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.01.14-04.18.04:836][ 22]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.01.14-04.18.04:836][ 22]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.01.14-04.18.04:836][ 22]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.01.14-04.18.04:836][ 22]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.01.14-04.18.04:847][ 22]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.01.14-04.18.04:849][ 22]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.01.14-04.18.04:849][ 22]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.01.14-04.18.04:849][ 22]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.01.14-04.18.04:849][ 22]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.01.14-04.18.04:849][ 22]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.01.14-04.18.04:849][ 22]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.01.14-04.18.04:850][ 22]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.01.14-04.18.04:851][ 22]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.01.14-04.18.04:851][ 22]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.01.14-04.18.04:851][ 22]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.01.14-04.18.04:851][ 22]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.01.14-04.18.04:851][ 22]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.01.14-04.18.04:851][ 22]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.01.14-04.18.04:851][ 22]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.01.14-04.18.04:851][ 22]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.01.14-04.18.04:851][ 22]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.01.14-04.18.04:851][ 22]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.01.14-04.18.04:851][ 22]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.01.14-04.18.04:851][ 22]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.01.14-04.18.05:028][ 22]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.01.14-04.18.05:028][ 22]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.01.14-04.18.05:028][ 22]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.01.14-04.18.05:028][ 22]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.01.14-04.18.05:028][ 22]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.01.14-04.18.05:028][ 22]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.01.14-04.18.05:028][ 22]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.01.14-04.18.05:028][ 22]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.01.14-04.18.05:028][ 22]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.01.14-04.18.05:028][ 22]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.01.14-04.18.05:028][ 22]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.01.14-04.18.05:028][ 22]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.01.14-04.18.05:028][ 22]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.01.14-04.18.05:028][ 22]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.01.14-04.18.05:028][ 22]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.01.14-04.18.05:029][ 22]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.01.14-04.18.05:029][ 22]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.01.14-04.18.05:029][ 22]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.01.14-04.18.05:029][ 22]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.01.14-04.18.05:029][ 22]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.01.14-04.18.05:029][ 22]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.01.14-04.18.05:029][ 22]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.01.14-04.18.05:029][ 22]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.01.14-04.18.05:029][ 22]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.01.14-04.18.05:029][ 22]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.01.14-04.18.05:029][ 22]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.01.14-04.18.05:029][ 22]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.01.14-04.18.05:029][ 22]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.01.14-04.18.05:029][ 22]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.01.14-04.18.05:029][ 22]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.01.14-04.18.05:029][ 22]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.01.14-04.18.05:029][ 22]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.01.14-04.18.05:029][ 22]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.01.14-04.18.05:029][ 22]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.01.14-04.18.05:029][ 22]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.01.14-04.18.05:031][ 22]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.01.14-04.18.05:031][ 22]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.01.14-04.18.05:031][ 22]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.01.14-04.18.05:031][ 22]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.01.14-04.18.05:031][ 22]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.01.14-04.18.05:031][ 22]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.01.14-04.18.05:031][ 22]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.01.14-04.18.05:031][ 22]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.01.14-04.18.05:031][ 22]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.01.14-04.18.05:031][ 22]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.01.14-04.18.05:031][ 22]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.01.14-04.18.05:132][ 22]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.01.14-04.18.05:233][ 22]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.01.14-04.18.05:233][ 22]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.01.14-04.18.05:233][ 22]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.01.14-04.18.05:233][ 22]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.01.14-04.18.05:233][ 22]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.01.14-04.18.05:233][ 22]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.01.14-04.18.05:235][ 22]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.01.14-04.18.05:235][ 22]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.01.14-04.18.05:235][ 22]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.01.14-04.18.05:235][ 22]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.01.14-04.18.05:236][ 22]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.01.14-04.18.05:236][ 22]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.01.14-04.18.05:236][ 22]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.01.14-04.18.05:237][ 22]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.01.14-04.18.05:237][ 22]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.01.14-04.18.05:237][ 22]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.01.14-04.18.05:242][ 22]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.01.14-04.18.05:242][ 22]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.01.14-04.18.05:242][ 22]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.01.14-04.18.05:243][ 22]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.01.14-04.18.05:243][ 22]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.01.14-04.18.05:243][ 22]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.01.14-04.18.05:243][ 22]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.01.14-04.18.05:243][ 22]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.01.14-04.18.05:243][ 22]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.01.14-04.18.05:243][ 22]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.01.14-04.18.05:243][ 22]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.01.14-04.18.05:243][ 22]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.01.14-04.18.05:243][ 22]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.01.14-04.18.05:243][ 22]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.01.14-04.18.05:243][ 22]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.01.14-04.18.05:243][ 22]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.01.14-04.18.05:245][ 22]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.01.14-04.18.05:245][ 22]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.01.14-04.18.05:245][ 22]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.01.14-04.18.05:245][ 22]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.01.14-04.18.05:245][ 22]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.01.14-04.18.05:245][ 22]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.01.14-04.18.05:245][ 22]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.01.14-04.18.05:245][ 22]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.01.14-04.18.05:245][ 22]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.14-04.18.05:245][ 22]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Dan/Documents/Code/Unreal/ProjectSwitchboard/Content/' was aborted.
+[2018.01.14-04.18.05:250][ 22]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.01.14-04.18.05:251][ 22]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.01.14-04.18.05:251][ 22]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.01.14-04.18.05:251][ 22]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.01.14-04.18.05:251][ 22]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.01.14-04.18.05:251][ 22]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.01.14-04.18.05:251][ 22]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.01.14-04.18.05:251][ 22]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.01.14-04.18.05:251][ 22]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.01.14-04.18.05:307][ 22]LogDerivedDataCache: Shutdown
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.01.14-04.18.05:307][ 22]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.01.14-04.18.05:308][ 22]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.01.14-04.18.05:308][ 22]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.01.14-04.18.05:308][ 22]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.01.14-04.18.05:308][ 22]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.01.14-04.18.05:308][ 22]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.01.14-04.18.05:308][ 22]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.01.14-04.18.05:308][ 22]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.01.14-04.18.05:308][ 22]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.01.14-04.18.05:308][ 22]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.01.14-04.18.05:308][ 22]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.01.14-04.18.05:308][ 22]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.01.14-04.18.05:308][ 22]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.01.14-04.18.05:308][ 22]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.01.14-04.18.05:308][ 22]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.01.14-04.18.05:308][ 22]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.14-04.18.05:308][ 22]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.14-04.18.05:308][ 22]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.14-04.18.05:308][ 22]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.14-04.18.05:308][ 22]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2018.01.14-04.18.05:308][ 22]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF1EEF9B6-4714-F88B-5C9C-8E842E1C1874%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.2-3794801%2B%2B%2BUE4%2BRelease-4.18&UserID=25133a02403a17ec8be1bb886ac86c19%7Cc34bc47395f44d468d70e6e257e3d8f9%7C1200b743-3888-4b49-84c9-d6fd83d40b11&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.14-04.18.05:308][ 22]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF1EEF9B6-4714-F88B-5C9C-8E842E1C1874%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.2-3794801%2B%2B%2BUE4%2BRelease-4.18&UserID=25133a02403a17ec8be1bb886ac86c19%7Cc34bc47395f44d468d70e6e257e3d8f9%7C1200b743-3888-4b49-84c9-d6fd83d40b11&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.14-04.18.05:316][ 22]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.14-04.18.05:318][ 22]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.01.14-04.18.05:318][ 22]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.01.14-04.18.05:318][ 22]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.01.14-04.18.05:318][ 22]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.01.14-04.18.05:319][ 22]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.01.14-04.18.05:319][ 22]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.01.14-04.18.05:319][ 22]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.01.14-04.18.05:325][ 22]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.01.14-04.18.05:325][ 22]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.01.14-04.18.05:325][ 22]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.01.14-04.18.05:325][ 22]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.01.14-04.18.05:325][ 22]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.01.14-04.18.05:325][ 22]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.01.14-04.18.05:325][ 22]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.01.14-04.18.05:325][ 22]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.01.14-04.18.05:325][ 22]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.14-04.18.05:325][ 22]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.14-04.18.05:325][ 22]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.14-04.18.05:328][ 22]LogExit: Exiting.
+[2018.01.14-04.18.05:343][ 22]Log file closed, 01/13/18 23:18:05
